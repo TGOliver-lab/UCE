@@ -10,3 +10,6 @@ model_files/protein_embeddings.tar.gz
 model_files/protein_embeddings/
 model_files/species_chrom.csv
 model_files/species_offsets.pkl
+
+# SLURM files
+slurm*
