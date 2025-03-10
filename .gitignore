@@ -1,0 +1,5 @@
+# compiled python files
+*.pyc
+
+# hidden notebook files
+.ipynb_
