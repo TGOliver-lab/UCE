@@ -3,3 +3,10 @@
 
 # hidden notebook files
 .ipynb_
+
+# large model files should not be included in the repo
+model_files/all_tokens.torch
+model_files/protein_embeddings.tar.gz
+model_files/protein_embeddings/
+model_files/species_chrom.csv
+model_files/species_offsets.pkl
