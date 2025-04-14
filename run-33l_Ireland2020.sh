@@ -6,7 +6,7 @@
 #SBATCH --mem=50G
 
 python eval_single_anndata.py \
---adata_path /hpc/group/oliverlab/lung_atlas/Tata_basal_cells_20250214.h5ad \
+--adata_path /hpc/group/oliverlab/adata_objects/Ireland2020_exvivo_timeseries.h5ad \
 --dir /work/drt42/UCE_output/ \
 --species mouse --nlayers 33 \
 --model_loc /hpc/group/oliverlab/UCE/33l_8ep_1024t_1280.torch \
